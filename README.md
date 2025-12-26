@@ -37,8 +37,8 @@ Banking-Campaign-Dashboard/
 │   └─ Banking_Campaign_Dashboard.pdf
 │
 ├─ model/                ← Model and model outputs
-│   ├─ campaign_model.ipynb        ← Notebook showing model building
-│   ├─ model.pkl                   ← Serialized trained model 
+│   ├─ Banking Campaign.ipynb        ← Notebook showing model building
+│   ├─ xbg_deposit_model.pkl                  ← Serialized trained model 
 │   └─ deposit_predictions_2025.csv     ← Sample predicted probabilities for customers
 │
 ├─ README.md             ← Project description, insights, and instructions
