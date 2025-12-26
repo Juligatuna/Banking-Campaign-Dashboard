@@ -23,26 +23,25 @@ The dashboard explores customer demographics, call patterns, and campaign effect
 ```bash
 Banking-Campaign-Dashboard/
 │
-├─ data/                 ← Original dataset (CSV/Excel) or link to Kaggle
+├─ data/                 ← Original dataset
 │   └─ bank_campaign.csv
 │
 ├─ workbook/             ← Tableau workbook
-│   └─ Banking_Campaign_Dashboard.twbx
+│   └─ Banking_Campaign.twbx
 │
-├─ images/               ← Screenshots of dashboard (for GitHub preview)
+├─ images/               ← Screenshots of dashboard
 │   ├─ conversion_rate.png
 │   └─ call_duration_analysis.png
 │
-├─ export/               ← Optional PDF or exported images of full dashboard
+├─ export/               ← Dashboard PDF and exported images of full dashboard
 │   └─ Banking_Campaign_Dashboard.pdf
 │
-├─ model/                ← Optional predictive modeling
+├─ model/                ← Model and model outputs
 │   ├─ campaign_model.ipynb        ← Notebook showing model building (logistic regression, decision tree, etc.)
 │   ├─ model.pkl                   ← Serialized trained model (optional)
 │   └─ predictions.csv             ← Sample predicted probabilities for customers
 │
 ├─ README.md             ← Project description, insights, and instructions
-└─ requirements.txt      ← Python dependencies if using a notebook
 ```
 
 ## ⚡ How to Use
