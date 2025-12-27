@@ -58,15 +58,15 @@ git clone https://github.com/Juligatuna/Banking-Campaign-Dashboard.git
 This project followed an iterative modeling approach to identify the most effective algorithm for predicting customer conversion to fixed deposit accounts.
 1. **Modeling Roadmap**
 I progressed through three primary stages to address data complexity and class imbalance:
-`Baseline: Logistic Regression` – Established a foundational linear relationship between customer attributes and conversion.
-`Intermediate: BalancedRandomForestClassifier` – Introduced ensemble learning with built-in undersampling to better handle the majority-minority class gap.
-`Final Model: XGBoost (Extreme Gradient Boosting)` – My final model. Utilized `stratified sampling`, `feature scaling`, and the `scale_pos_weight` parameter to optimize for high recall in a highly imbalanced environment.
+- `Baseline: Logistic Regression` – Established a foundational linear relationship between customer attributes and conversion.
+- `Intermediate: BalancedRandomForestClassifier` – Introduced ensemble learning with built-in undersampling to better handle the majority-minority class gap.
+- `Final Model: XGBoost (Extreme Gradient Boosting)` – My final model. Utilized `stratified sampling`, `feature scaling`, and the `scale_pos_weight` parameter to optimize for high recall in a highly imbalanced environment.
 2. **Feature Engineering & Selection**
 Key predictors used across all models included:
-`Demographics`: Age, marital status, education level.
-`Financial Status`: Account balance (processed for outliers).
-`Communication Data`: Contact type, number of campaign attempts (dropping duration to prevent data leakage during real-time prediction).
-`Temporal Trends`: Month and seasonality of the campaign.
+- `Demographics`: Age, marital status, education level.
+- `Financial Status`: Account balance (processed for outliers).
+- `Communication Data`: Contact type, number of campaign attempts (dropping duration to prevent data leakage during real-time prediction).
+- `Temporal Trends`: Month and seasonality of the campaign.
 3. **Model Performance (XGBoost)**
 The final model was tuned to prioritize Recall, ensuring the bank captures as many potential "Yes" conversions as possible.
 Metric	Score
