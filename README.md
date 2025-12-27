@@ -70,11 +70,11 @@ Key predictors used across all models included:
 3. **Model Performance (XGBoost)**
 The final model was tuned to prioritize Recall, ensuring the bank captures as many potential "Yes" conversions as possible.
 Metric	Score
-Accuracy	0.73
-ROC-AUC	0.72
-Precision	0.69
-Recall	0.88
-F1-Score	0.77
+- Accuracy	0.73
+- ROC-AUC	0.72
+- Precision	0.69
+- Recall	0.88
+- F1-Score	0.77
 4. **Project Deliverables**
-deposit_predictions_2025.csv: Contains original customer data, predicted labels, and the raw probability of conversion for every lead.
-xbg_deposit_model.pkl: The serialized XGBoost model ready for production deployment.
+- `deposit_predictions_2025.csv`: Contains original customer data, predicted labels, and the raw probability of conversion for every lead.
+- `xbg_deposit_model.pkl`: The serialized XGBoost model ready for production deployment.
