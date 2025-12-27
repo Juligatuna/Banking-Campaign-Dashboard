@@ -69,7 +69,8 @@ Key predictors used across all models included:
 - `Temporal Trends`: Month and seasonality of the campaign.
 3. **Model Performance (XGBoost)**
 The final model was tuned to prioritize Recall, ensuring the bank captures as many potential "Yes" conversions as possible.
-Metric	Score
+
+Metric	Score:
 - Accuracy	0.73
 - ROC-AUC	0.72
 - Precision	0.69
